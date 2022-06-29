@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+
+}
+
+.perguntas{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.pergunta{
+    padding: 20px;
+}
+
+.pergunta h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.container{
+    padding: 5px;
+}
